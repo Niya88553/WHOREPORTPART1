@@ -1,0 +1,102 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.59\",\"type\":2},\"customTheme\":{\"name\":\"Tidal\",\"version\":\"5.59\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          },
+          {
+            "name": "Tidal",
+            "path": "BuiltInThemes/Tidal.json",
+            "type": 201
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "2e9f6215b8a4a0ea30cc",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"16ecc938a8ba2e64b06b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":386.9955724225174,\"z\":1,\"width\":346.51486401012016,\"height\":333.56103731815307,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AAP_2022_city_v9 (2).WHO Region\"}],\"Y\":[{\"queryRef\":\"Sum(AAP_2022_city_v9 (2).Measurement Year)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AAP_2022_city_v9 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"WHO Region\"},\"Name\":\"AAP_2022_city_v9 (2).WHO Region\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Measurement Year\"}},\"Function\":0},\"Name\":\"Sum(AAP_2022_city_v9 (2).Measurement Year)\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Measurement Year\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 333.56,
+          "width": 346.51,
+          "x": 0.00,
+          "y": 387.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"2389ad91e9e12610a0d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":854.9525616698293,\"y\":225.07273877292855,\"z\":3,\"width\":288.2226438962682,\"height\":123.06135357368754,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(AAP_2022_city_v9 (2).Version of the database)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AAP_2022_city_v9 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Version of the database\"}},\"Function\":0},\"Name\":\"Sum(AAP_2022_city_v9 (2).Version of the database)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Version of the database\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 123.06,
+          "width": 288.22,
+          "x": 854.95,
+          "y": 225.07,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"2b0ab9f8ceec92951570\",\"layouts\":[{\"id\":0,\"position\":{\"x\":835.5218216318785,\"y\":58.292220113852,\"z\":2,\"width\":216.9765970904491,\"height\":153.82669196710944,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(AAP_2022_city_v9 (2).NO2 (μg/m3))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AAP_2022_city_v9 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NO2 (μg/m3)\"}},\"Function\":0},\"Name\":\"Sum(AAP_2022_city_v9 (2).NO2 (μg/m3))\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NO2 (μg/m3)\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 153.83,
+          "width": 216.98,
+          "x": 835.52,
+          "y": 58.29,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"4a746974d60b0b28d656\",\"layouts\":[{\"id\":0,\"position\":{\"x\":29.146110056926,\"y\":40.48070841239722,\"z\":5,\"width\":788.5641998734978,\"height\":307.6533839342189,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AAP_2022_city_v9 (2).WHO Country Name\"}],\"Y\":[{\"queryRef\":\"Sum(AAP_2022_city_v9 (2).Version of the database)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AAP_2022_city_v9 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"WHO Country Name\"},\"Name\":\"AAP_2022_city_v9 (2).WHO Country Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Version of the database\"}},\"Function\":0},\"Name\":\"Sum(AAP_2022_city_v9 (2).Version of the database)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Version of the database\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 307.65,
+          "width": 788.56,
+          "x": 29.15,
+          "y": 40.48,
+          "z": 5.00
+        },
+        {
+          "config": "{\"name\":\"54b004718a50e9c03aec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1076.786843769766,\"y\":58.292220113852,\"z\":0,\"width\":189.449715370019,\"height\":134.39595192915877,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(AAP_2022_city_v9 (2).Measurement Year)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AAP_2022_city_v9 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Measurement Year\"}},\"Function\":0},\"Name\":\"Sum(AAP_2022_city_v9 (2).Measurement Year)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Measurement Year\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 134.40,
+          "width": 189.45,
+          "x": 1076.79,
+          "y": 58.29,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"bd73ca55b671482d832e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":854.9525616698293,\"y\":409.66476913345986,\"z\":4,\"width\":411.28399746995575,\"height\":288.2226438962682,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AAP_2022_city_v9 (2).WHO Country Name\"}],\"Y\":[{\"queryRef\":\"Sum(AAP_2022_city_v9 (2).NO2 (μg/m3))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AAP_2022_city_v9 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"WHO Country Name\"},\"Name\":\"AAP_2022_city_v9 (2).WHO Country Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NO2 (μg/m3)\"}},\"Function\":0},\"Name\":\"Sum(AAP_2022_city_v9 (2).NO2 (μg/m3))\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NO2 (μg/m3)\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 288.22,
+          "width": 411.28,
+          "x": 854.95,
+          "y": 409.66,
+          "z": 4.00
+        },
+        {
+          "config": "{\"name\":\"ee96ba3cc67604a09051\",\"layouts\":[{\"id\":0,\"position\":{\"x\":357.8494623655914,\"y\":365.94560404807083,\"z\":6,\"width\":477.6723592662872,\"height\":331.9418089816572,\"tabOrder\":6}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"AAP_2022_city_v9 (2).WHO Country Name\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AAP_2022_city_v9 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"WHO Country Name\"},\"Name\":\"AAP_2022_city_v9 (2).WHO Country Name\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"mapStyles\":[{\"properties\":{\"mapTheme\":{\"expr\":{\"Literal\":{\"Value\":\"'canvasLight'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 331.94,
+          "width": 477.67,
+          "x": 357.85,
+          "y": 365.95,
+          "z": 6.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Tidal"
+}
